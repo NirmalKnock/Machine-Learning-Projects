@@ -7,15 +7,9 @@ class myCallback(tf.keras.callbacks.Callback):
 
 def train_mnist():
     
-    # Please write your code only where you are indicated.
-    # please do not remove # model fitting inline comments.
-
-    # YOUR CODE SHOULD START HERE
-     
    
     
-    # YOUR CODE SHOULD END HERE
-    
+ 
     mnist = tf.keras.datasets.mnist
     (x_train, y_train),(x_test, y_test) = mnist.load_data(path=path)
     import numpy as np
